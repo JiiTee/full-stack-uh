@@ -1,0 +1,7 @@
+note over server: the sumitted note is added to the data structures in memory
+server-->browser: 201 Created ({"message":"note created"})
+
+note over browser:
+browser executes the event handler
+that renders notes to display (redrawNotes = function()...)
+end note
